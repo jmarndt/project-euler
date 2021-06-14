@@ -1,14 +1,5 @@
-MAX = 1000
-
-
 def pe_001():
-    answer = 0
-    count = 1
-    while count < MAX:
-        if count % 3 == 0 or count % 5 == 0:
-            answer += count
-        count += 1
-    return answer
+    return sum(filter(lambda n: (n % 3 == 0 or n % 5 == 0), range(1, 1000)))
 
 
 if __name__ == '__main__':
