@@ -1,7 +1,7 @@
 MAX = 1000
 
 
-def solve():
+def pe_001():
     answer = 0
     count = 1
     while count < MAX:
@@ -12,5 +12,4 @@ def solve():
 
 
 if __name__ == '__main__':
-    ans = solve()
-    print(ans)
+    print(pe_001())
